@@ -32,6 +32,6 @@
     "rollup-plugin-babel": "^4.4.0"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js":["eslint --fix"]
   }
 }
